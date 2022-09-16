@@ -1,0 +1,1004 @@
+/* Fonts:
+Yrsa
+Winter Insight
+Roboto
+Segoe UI
+Montserrat
+Aleo*/
+@import url('http://fonts.cdnfonts.com/css/yrsa');
+@import url('http://fonts.cdnfonts.com/css/winter-insight');
+@import url('http://fonts.cdnfonts.com/css/roboto');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+@import url('http://fonts.cdnfonts.com/css/aleo-2');
+
+:root {
+--ff-Yrsa: "Yrsa";
+--ff-WI: "Winter Insight";
+--ff-roboto: "Roboto";
+--ff-segoe-ui:"Segoe UI";
+--ff-montserrat:"Montserrat";
+--ff-aleo:"Aleo";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html,body {
+height: 100%;
+min-width: 425px;
+}
+
+.main {
+display: block;
+max-width: 1920px;
+margin: 0 auto;
+height: 3650px;
+}
+
+.header {
+    display: block;
+    flex-direction: column;
+    height: 830px;
+    width: 100%;
+    background-image: url(./img/girl.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+}
+.header_row {
+    display: flex;
+    width: 100%;
+    align-items:top;
+}
+.header_row .logo {
+    margin-top: 24px;
+    margin-left: 133px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    margin-right: 288px;
+    margin-left: 310px;
+    margin-top: 49px;
+    width: 852px;
+    height: 23px;
+}
+.list a {
+    text-decoration: none;
+}
+.list .list_item a:hover {
+    color: #FF9F00;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.list_item  {
+    list-style: none;
+    margin-left: 50px;
+}
+.list_item:first-child{
+    margin-left: 0;
+}
+.list_item a {
+    height: 23px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #09B3B0;
+}
+.list_item .home {
+    width: 50px;
+}
+.client  {
+    width: 152px;
+}
+.advisor {
+    width: 72px;
+}
+.register {
+    width: 183px;
+}
+.search {
+    display: block;
+    width:49px;
+    height:49px;
+    background: #09B3B0;
+    border-radius: 50%;
+    position: relative;
+    bottom: 9px;
+    right: 8px;
+}
+.search:hover {
+    background-color: #FF9F00;
+    cursor: pointer;
+}
+.list_item .login {
+    display: block;
+    width:99px;
+    height: 40px;
+    background: #09B3B0;
+    border: 1px solid #09B3B0;
+    border-radius: 5px;
+    position: relative;
+    bottom: 9px;
+    left: 0;  
+}
+.list_item .login:hover {
+    color: #ffffff;
+    background-color: #FF9F00;
+    border: none;
+    cursor: pointer;
+}
+.login  {
+    color: #ffffff;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    background-color: #09B3B0;
+}
+
+.peace {
+    display: block;
+    margin-top: 112px;
+    margin-left: 74px;
+    width: 494px;
+    height: 248px;
+}
+.peace h1 {
+    font-family: var(--ff-WI);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 135px;
+    line-height: 96.32%;
+    text-align: center;
+    color: #FF9F00;
+}
+.insight {
+    display: block;
+    margin-left: 107px;
+    margin-top: 67px;
+    width: 428px;
+    height: 39px;
+}
+.insight h3 {
+    font-family: var(--ff-WI);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.insight p {
+    font-family: var(--ff-Yrsa);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;;
+    color: #FF9F00;
+    padding-top: 22px;
+}
+.section {
+    display: block;
+    width: 1920px;
+    height: 150px;
+    background: #09B3B0;
+    padding-top: 55px;
+}
+.section_find {
+font-family: var(--ff-Yrsa);
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 40px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 55px;
+}
+.about_group {
+    display: block;
+    background-image: url("./img/section_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 54px 0px 0px 0px;
+    height: 855px;
+}
+.about_mery, .about_superloveadvisor,.about_psychic {
+    display: flex;
+    align-items: top;
+    margin-left: 400px;
+    margin-right: 445px;
+}
+.about_superloveadvisor,.about_psychic {
+    margin-top: 65px;
+}
+.info_mary,.info_superloveadvisor,.info_psychic {
+    padding-left: 20px;
+}
+.info_mary h5,.info_superloveadvisor h5,.info_psychic h5 {
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #008080;
+}
+.info_mary p,.info_superloveadvisor h6,.info_psychic h6 {
+    padding-top: 15px;
+}
+.info_superloveadvisor h6,.info_psychic h6 {
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #09292F;
+}
+.info_superloveadvisor p,.info_psychic p {
+    padding-top: 20px;
+}
+.info_mary p,.info_superloveadvisor p,.info_psychic p {
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #09292F;
+    width: 490px;
+}
+.price_mary, .price_superloveadvisor,.price_psychic {
+    margin-left: 255px;
+}
+.free {
+    display: block;
+    width: 163px;
+    height: 23px;
+    background: #09B3B0;
+    border-radius: 3px 0px 0px 3px;
+}
+.free p {
+    padding: 5px 47px 6px 8px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 10px;
+    color: #FFFFFF;;
+}
+.highlightme {
+   background-color: #FFFFFF;
+   font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #09292F;
+}
+.send,.chat {
+    margin-top: 8px;
+}
+.call,.send {
+    margin-top: 54px;
+}
+.call,.send, .chat {
+    display: block;
+    width: 163px;
+    height: 40px;
+    border-radius: 5px;
+}
+.call {
+    background: #FF9F00;
+}
+
+.chat {
+    background: #09B3B0;
+}
+.call,.send,.chat {
+    padding: 9px 30px 13px 49px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+.send {
+    background: #FFFFFF;
+    border: 1px solid #09B3B0;
+    color: #09B3B0;
+}
+.call:hover, .chat:hover {
+    background: #FF9F00;
+}
+.call::before {
+    content:"";
+    background-image: url("./img/cellphone.png");
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.chat::before {
+    content:"";
+    background-image: url("./img/chat.png");
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.send::before {
+    content:"";
+    background-image: url("./img/mailto.png");
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.more_info {
+    padding-top: 52px;
+    display: flex;
+    justify-content: center;
+}
+.more_info button{
+    margin-left: 20px;
+}
+.more_info button:first-child {
+    margin-left: 0px;
+}
+.more_info button {
+    display: block;
+    width: 255px;
+    height: 48px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 16px 0px 16px 0px;
+    cursor: pointer;
+}
+.more_info .get:after {
+    content: " ";
+    display: block;
+    background-image: url("./img/arrow.png");
+    background-repeat: no-repeat;
+    width: 116px;
+    height: 45px;
+    cursor:default;
+    position: absolute;
+    bottom: 20px;
+    left:266px;
+}
+.see {
+    background: #09B3B0;
+}
+.see:hover {
+    background-color: #FF9F00;
+}
+.get {
+    background: #FF9F00;
+    position: relative;
+}
+.hr_line_upper_faq {
+    border: 1px solid #EBEDF0;
+    margin-top: 50px;
+    margin-bottom: 17px;
+    width: 1080px;
+    margin-left: 420px;
+}
+.faq {
+    background-image: url("./img/why_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+}
+.faq .why {
+    display: block;
+    width: 610px;
+    height: 144px;
+    text-align: center;
+    margin-left: 655px;
+}
+.why h2 {
+    font-family: var(--ff-segoe-ui);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #3C3935;
+}
+.faq_group {
+display: flex;
+justify-content: space-evenly;
+}
+.faq_best,.faq_real,.faq_satisfaction {
+    display: block;
+    text-align: center;
+    width: 280px;
+}
+.faq_best h4,.faq_real h4,.faq_satisfaction h4 {
+    font-family: var(--ff-segoe-ui);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #0099A8;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.faq_text {
+    font-family: var(--ff-segoe-ui);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #3C3935;
+}
+.read_more {
+    margin-top: 6px;
+    margin-bottom: 26px;
+}
+.read_more a:hover {
+    color: #FF9F00;
+}
+.read_more a {
+    text-decoration: none;
+    font-family: var(--ff-segoe-ui);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #0099A8;
+}
+.faq_three_rows {
+    background-image: url("./img/faq_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1350px;
+    background-position-y: center;
+}
+.faq_three_rows a:hover {
+    color: #FF9F00;
+}
+.faq_first {
+    padding-top: 40px;
+}
+.faq_first h2,.faq_second h2,.faq_third h2 {
+    font-family: var(--ff-Yrsa);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #09292F;
+    margin-bottom: 31px;
+}
+.faq_first p,.faq_second p,.faq_third p {
+    display: block;
+    width: 1064px;
+    height: 69px;
+    text-align: center;
+    margin-left: 428px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #09292F;
+}
+.faq_links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.faq_links_col1 a,.faq_links_col2 a {
+    display: block; 
+    width: 360px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #008080;
+    margin-top: 9px;
+}
+.faq_links_col2 {
+    margin-left: 220px;
+}
+.faq_btn {
+    display: block;
+    width: 148px;
+    height: 48px;
+    padding: 16px 23px;
+    border: 1px solid #09B3B0;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 886px;
+    margin-top: 40px;
+    font-family: var(--ff-roboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #09B3B0;
+}
+.faq_btn:hover {
+    color: #FF9F00;
+    border: 1px solid #FF9F00;
+}
+.faq_first a, .faq_second a,.faq_third a{
+    text-decoration: none;
+}
+.faq_second h2,.faq_third h2 {
+    margin-top: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./img/footer_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    top: 73%;
+    left: 0;
+}
+.logo_link {
+    display: flex;
+    align-items: top;
+}
+.logo_link img {
+    margin-top: 60px;
+}
+.info_logo {
+    margin-left: 20px;
+}
+.info_logo h4 {
+    font-family: var(--ff-aleo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 90px;
+}
+.info_logo a {
+    font-family: var(--ff-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+.leftbar p {
+    margin-top: 8px;
+    font-family: var(--ff-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+.footer_links {
+    font-family: var(--ff-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.footer_links a:hover,.info_logo a:hover {
+    color: #FF9F00;
+}
+.footer_links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 27px;
+}
+.rightbar {
+    display: block;
+    width: 408px;
+}
+.rightbar h4 {
+    margin-top: 53px;
+    font-family: var(--ff-aleo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.social_media a {
+    margin-right: 16px;
+}
+.rightbar p {
+    font-family: var(--ff-montserrat);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    width: 340px;
+}
+/* Media queries */
+
+@media only screen and (min-width:1441px) and (max-width:1920px) {
+    .main {
+       width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .header .logo  {
+        width: 100%;
+    }
+    .header_row {
+        align-items: center;
+    }
+    .header_row .list{
+        width: 100%;
+        margin: 0; 
+    }
+    .about_group {
+       width: 100%; 
+       margin: 0 auto;
+    }
+    .about_mery, .about_superloveadvisor,.about_psychic {
+        margin:0 auto;
+        justify-content: center;
+        padding: 5px;
+    }
+    .about_group .hr_line_upper_faq {
+    margin:0 auto;
+    width: 0%;
+    }
+    .faq .why,.faq_btn  {
+        margin: 0 auto;
+    }
+    .faq_first p,.faq_second p,.faq_third p {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .section,.footer {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .about_group {
+        height: 725px;
+    }
+    .faq_first,.faq_second h2,.faq_third h2 {
+        padding-top: 70px;
+        margin-top: 0px;
+    }
+    .footer {
+        top: 65%;
+    }
+   }
+   @media only screen and (min-width:1025px) and (max-width:1440px) {
+    .main {
+       width: 1440px;
+    }
+    .header {
+        width: 100%;
+    }
+    .header .logo  {
+        width: 100%;
+    }
+    .header_row {
+        align-items: center;
+    }
+    .header_row .list{
+        width: 100%;
+        margin: 0; 
+    }
+    .about_group {
+       width: 100%; 
+       margin: 0 auto;
+    }
+    .about_mery, .about_superloveadvisor,.about_psychic {
+        margin:0 auto;
+        justify-content: center;
+        padding: 5px;
+    }
+    .about_group .hr_line_upper_faq {
+        margin:0 auto;
+        width: 0%;
+        }
+    .faq .why,.faq_btn   {
+        margin: 0 auto;
+    }
+    .faq_first p,.faq_second p,.faq_third p {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section,.footer {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .about_group {
+        height: 725px;
+    }
+    .faq_first,.faq_second h2,.faq_third h2 {
+        padding-top: 70px;
+        margin-top: 0px;
+    }
+    .footer {
+        top: 65%;
+    }
+   }
+   /* media from 769 to 1024 */
+   @media only screen and (min-width:769px) and (max-width:1024px) {
+    .main {
+       width: 1024px;
+    }
+    .header {
+        width: 100%;
+    }
+    .header .logo  {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header_row {
+        display: block;
+    }
+    .header_row .list{
+        width: 100%;
+        margin: 0; 
+    }
+    .about_group {
+       width: 100%; 
+       margin: 0 auto;
+    }
+    .about_mery, .about_superloveadvisor,.about_psychic {
+        margin:0 auto;
+        justify-content: space-around;
+        padding: 5px 0 0 60px;
+    }
+
+    .price_mary,.price_psychic,.price_superloveadvisor {
+        margin: 0 auto;
+    }
+    .about_group .hr_line_upper_faq {
+        margin:0 auto;
+        width: 0%;
+        }
+    .faq .why,.faq_btn  {
+        margin: 0 auto;
+    }
+    .faq_first p,.faq_second p,.faq_third p {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section,.footer {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .about_group {
+        height: 725px;
+    }
+    .faq_first,.faq_second h2,.faq_third h2 {
+        padding-top: 70px;
+        margin-top: 0px;
+    }
+    .footer {
+        top: 65%;
+    }
+   }
+   /* media from 426 to 768 */
+   @media only screen and (min-width:426px) and (max-width:768px) {
+    .main {
+       width: 768px;
+    }
+    .header {
+        width: 100%;
+    }
+    .header .logo  {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header_row {
+        display: block;
+    }
+    .header_row .list{
+        width: 100%;
+        margin: 0; 
+    }
+    .section_find {
+        font-size:52px;
+    }
+    .about_group {
+       width: 100%; 
+       margin: 0 auto;
+       padding-top: 0px;
+       margin-top: 20px;
+    }
+    .about_mery, .about_superloveadvisor,.about_psychic {
+        margin:0 auto;
+        justify-content: space-around;
+        padding: 5px 0 0 40px;
+    }
+    .info_mary p,.info_superloveadvisor p,.info_psychic p {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 15px;
+        width: 290px;
+    }
+    .info_superloveadvisor h6,.info_psychic h6 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+        width: 290px;
+    }
+    .price_mary,.price_psychic,.price_superloveadvisor {
+        margin: 0 auto;
+    }
+    .about_group .hr_line_upper_faq {
+        margin:0 auto;
+        width: 0%;
+        }
+    .faq .why,.faq_btn  {
+        margin: 0 auto;
+    }
+
+    .faq_links {
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+    .faq_links_col2 {
+        margin: 0;
+    }
+    .more_info .get::after {
+        display: none;
+    }
+    .faq_first p,.faq_second p,.faq_third p {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section,.footer {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .about_group {
+        height: 725px;
+    }
+    .faq_first,.faq_second h2,.faq_third h2 {
+        padding-top: 30px;
+        margin-top: 0px;
+    }
+    .footer {
+        top: 64%;
+    }
+   }
+   /* не сделал! проверить */
+   @media only screen and (min-width:376px) and (max-width:425px) {
+    .main {
+       width: 425px;
+    }
+    .header {
+        width: 100%;
+    }
+    .header .logo  {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header_row {
+        display: block;
+    }
+    .header_row .list{
+        display: block;
+        width: 50%;
+        margin: 0 auto; 
+    }
+    .section_find {
+        font-size:52px;
+    }
+    .about_group {
+       width: 100%; 
+       margin: 0 auto;
+       padding-top: 0px;
+       margin-top: 20px;
+    }
+    .about_mery, .about_superloveadvisor,.about_psychic {
+        margin:0 auto;
+        justify-content: space-around;
+        padding: 5px 0 0 40px;
+    }
+    .info_mary p,.info_superloveadvisor p,.info_psychic p {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 15px;
+        width: 290px;
+    }
+    .info_superloveadvisor h6,.info_psychic h6 {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+        width: 290px;
+    }
+    .price_mary,.price_psychic,.price_superloveadvisor {
+        margin: 0 auto;
+    }
+    .about_group .hr_line_upper_faq {
+        margin:0 auto;
+        width: 0%;
+        }
+    .faq .why,.faq_btn  {
+        margin: 0 auto;
+    }
+
+    .faq_links {
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+    .faq_links_col2 {
+        margin: 0;
+    }
+    .more_info .get::after {
+        display: none;
+    }
+    .faq_first p,.faq_second p,.faq_third p {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .section,.footer {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .about_group {
+        height: 725px;
+    }
+    .faq_first,.faq_second h2,.faq_third h2 {
+        padding-top: 30px;
+        margin-top: 0px;
+    }
+    .footer {
+        top: 64%;
+    }
+   }
